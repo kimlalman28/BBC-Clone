@@ -46,7 +46,7 @@ body {
     font-size: 90%;
     position: relative;
     top: 13px;
-    padding-right: 70px;
+    padding-right: 50px;
 }
 
 
@@ -63,14 +63,19 @@ body {
 }
 
 #search-box {
-    background-color: #A9A9A9;
+    background-color: #E4E4E4;
     border: none;
     font-weight: bold;
     font-size: 14px;
     padding: 5px;
-    margin: 5px;
+    margin: 5px 0 5px 5px;
+    float: left;
 }
 
+#search-icon {
+    height: 27px;
+    margin-top: 5px;
+}
 
 
 
