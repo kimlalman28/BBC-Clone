@@ -159,7 +159,7 @@ h1 {
     margin: 0 auto;
 }
 
-h2 {
+#topic {
     font-weight: normal;
     margin-top: 40px;
     font-size: 20px;
@@ -173,14 +173,11 @@ h3 a {
     font-size: 30px;
 }
 
-h3 a:hover {
-    color: #1968A6;
-}
-
 #article-container {
     float: left;
-    width: 660px;
-    border-right: 1px solid #CCCCCC;
+    width: 640px;
+    padding-right: 20px;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 #article-summary {
@@ -197,7 +194,7 @@ h3 a:hover {
     top: 2px;
 }
 
-#topic-link {
+.topic-link {
     text-decoration: none;
     color: #B91C21;
     border-left: 1px #CCCCCC solid;
@@ -205,14 +202,13 @@ h3 a:hover {
     padding-left: 5px;
 }
 
-#article-summary a:hover {
+.topic-link:hover, .video a:hover, h3 a:hover {
     color: #1968A6;   
 }
 
 #article-image {
     width: 390px;
     margin-left: 20px;   margin-top: -10px;
-
 }
 
 #article-hr {
@@ -224,6 +220,64 @@ h3 a:hover {
     text-decoration: none;
     color: black;
 }
+
+#vertical-news-container {
+    float: left;
+    width: 300;
+    padding-left: 15px;
+    margin-top: -10px;
+    border-left: 1px solid #CCCCCC;
+}
+
+#watch-listen {
+    color: #404040;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.video {
+    width: 300px;
+    float: left;
+    margin: auto;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+.video-thumbnail {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.video-title {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.video-title-p {
+    margin-top: -1px;
+}
+
+.video-clock-img {
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.date {
+    color: #5A5A5A;
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+.video-tech-link {
+    font-size: 14px;
+    margin-left: 110px;
+    margin-top: -9px;
+}
+
 
 
 
